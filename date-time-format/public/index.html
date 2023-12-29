@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Difference App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Timestamp Difference App</h1>
+        <div>
+            <label for="timestamp1">Timestamp 1:</label>
+            <input type="text" id="timestamp1" placeholder="DD:MM:YYYY HH:MM:SS">
+        </div>
+        <div>
+            <label for="timestamp2">Timestamp 2:</label>
+            <input type="text" id="timestamp2" placeholder="DD:MM:YYYY HH:MM:SS">
+        </div>
+        <button onclick="calculateDifference()">Calculate Difference</button>
+        <p id="result">Difference in seconds: <span id="differenceInSeconds"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
